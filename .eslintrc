@@ -1,7 +1,8 @@
 {
   "env": {
     "browser": true,
-    "es2021": true
+    "es2021": true,
+`NODE_OPTIONS=--openssl-legacy-provider`
   },
   "parser": "babel-eslint",
   "extends": ["react-app", "airbnb", "prettier"],
